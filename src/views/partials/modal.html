@@ -1,0 +1,27 @@
+<div id="modal" class="hide">
+  <div class="content">
+    <div class="header">
+      <h1>Pontos de coleta</h1>
+      <a href="#">Fechar</a>
+    </div>
+
+    <form action="/search">
+
+      {# <div class="search field">
+        <input type="text" required="required" autocomplete="off" name="state" placeholder="Pesquise pelo Estado">
+      </div> #}
+
+      <div class="field-group">
+
+        <div class="search field">
+          <input type="text" required="required" autocomplete="off" name="city" placeholder="Pesquise pela Cidade">
+        </div>
+
+        <button type="submit" href="/search">
+          <img src="/assets/search.svg" alt="">
+          <span></span>
+          <strong>Buscar</strong>
+        </button>
+      </div>
+    </div>
+  </div>
